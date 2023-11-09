@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>Homework-Lesson8</artifactId>
+	<artifactId>Homework-Lesson9</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
@@ -31,6 +31,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
+			<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+			<dependency>
+				<groupId>org.junit.jupiter</groupId>
+				<artifactId>junit-jupiter</artifactId>
+				<version>5.10.0</version>
+				<scope>test</scope>
+			</dependency>
 	</dependencies>
 
 
